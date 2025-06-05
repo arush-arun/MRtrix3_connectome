@@ -2882,7 +2882,7 @@ def run_group(bids_dir, output_verbosity, output_app_dir):
                                   + session_label
                                   + '" output')
             if len(in_dwi_image_list) > 1:
-                raise MRtrixError('More than one DWI mage found in session "'
+                raise MRtrixError('More than one DWI image found in session "'
                                   + session_label
                                   + '" output')
             self.in_dwi = in_dwi_image_list[0]
